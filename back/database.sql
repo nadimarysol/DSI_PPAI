@@ -4,4 +4,4 @@ CREATE TABLE IF NOT EXISTS usuarios (
     correo_electronico VARCHAR(100) NOT NULL UNIQUE,
     contrasena VARCHAR(255) NOT NULL,
     fecha_creacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP    
-)
+) --VER DE USAR SQLITE3 para eso conectar con NODE
